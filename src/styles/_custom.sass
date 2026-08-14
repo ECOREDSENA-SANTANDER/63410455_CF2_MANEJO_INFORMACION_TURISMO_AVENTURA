@@ -56,7 +56,95 @@ figcaption
 .banner-interno__titulo__icono i
     color: $color-primario !important;
 
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: $color-primario
+  border-radius: 30px
+  padding-right: 16px
+  padding-left: 60px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
 
+
+  &__icon
+    position: absolute
+    left: -10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    max-width: 85px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 10px
+    white-space: normal
+    word-break: break-word
+    color: $white
+
+.titulo-tercer-nivel-2
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: $color-secundario
+  padding-right: 10px
+  padding-left: 60px
+  min-height: 48px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+
+
+  &__icon
+    position: absolute
+    left: -10px
+    top: 50%
+    transform: translateY(-50%)
+    width: 70px
+    max-width: 85px
+    height: auto
+
+    @media screen and (max-width: $bp-min-md)
+      display: none
+
+  &__text
+    margin: 0
+    margin: 0 15px 0 10px
+    white-space: normal
+    word-break: break-word
+    color: $white
+.acordion__accion__btn--b
+    background-color: $color-acento-botones !important;
+    border: 0
+.tarjeta.bg-green
+  background-color: #0F324D
+.tarjeta.bg-green.acordion__activo
+  background-color: #E6EAED
+.tarjeta.bg-green .acordion__titulo h3
+  color: $white
+.tarjeta.bg-green.acordion__activo .acordion__titulo h3
+  color: $color-sistema-texto 
+.acordion__accion__btn--a
+    background-color: $color-acento-botones
+
+.tabs-a__tab
+    background-color: $color-acento-botones
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    color: $color-sistema-texto !important
+
+.slyder-f__btn i 
+    color: $color-acento-botones
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -83,11 +171,26 @@ figcaption
 
 .bg-color
   &-1
-    background-color: $color-primario
+    background-color: #3F1000
+  &-2
+    background-color: #E8EDEB
+  &-3
+    background-color: #9D2A00
 
+.mcus
+  &-1
+    margin-left: 0 !important
+    padding-left: 0 !important
 
+.wcus
+  &-1
+    width: 15%    
+  &-2
+    width: 45%    
 
-    
+.hcard
+  &-1
+    height: 400px !important
 
 
 

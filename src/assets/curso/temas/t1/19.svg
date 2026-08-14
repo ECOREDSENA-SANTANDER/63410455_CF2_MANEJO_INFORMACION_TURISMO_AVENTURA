@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <g id="Grupo_1187929" data-name="Grupo 1187929" transform="translate(-1079.129 -8461.761)">
+    <circle id="Elipse_13614" data-name="Elipse 13614" cx="65" cy="65" r="65" transform="translate(1079.129 8461.761)" fill="#fff"/>
+    <g id="Grupo_1187227" data-name="Grupo 1187227" transform="translate(1071.43 8486.702)">
+      <path id="Trazado_1023401" data-name="Trazado 1023401" d="M106.3,14.57V36.953A44.526,44.526,0,0,1,72.683,80.117,44.519,44.519,0,0,1,39.1,36.953V14.57C54.644,12.819,63.449,6.9,72.7,0,81.95,6.9,90.755,12.819,106.3,14.57Z" transform="translate(0)" fill="#ffd15c"/>
+      <path id="Trazado_1023402" data-name="Trazado 1023402" d="M115.609,124.29A35.985,35.985,0,0,1,90.5,89.963V74.8a68.132,68.132,0,0,0,25.109-11.3c7.12,4.939,14.652,9.069,25.109,11.316V89.98A35.98,35.98,0,0,1,115.609,124.29Z" transform="translate(-42.909 -53.01)" fill="#f8b64c"/>
+      <path id="Trazado_1023403" data-name="Trazado 1023403" d="M166.976,206.022l-8.276-8.276,4.2-4.212,4.08,4.064,15.214-15.2,4.2,4.2Z" transform="translate(-99.843 -152.269)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
