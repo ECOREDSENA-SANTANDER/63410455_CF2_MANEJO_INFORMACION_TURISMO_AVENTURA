@@ -21,85 +21,735 @@ export default {
     cuestionario: {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
-      introduccion: '<b>Objetivo:</b> verificar la apropiación de conceptos relacionados con el servicio al cliente, la comunicación turística, las tecnologías para la información turística y los medios de promoción de la oferta en turismo de aventura.',
+      introduccion:
+        '<b>Objetivo:</b> verificar la apropiación de conceptos relacionados con el servicio al cliente, la comunicación turística, las tecnologías para la información turística y los medios de promoción de la oferta en turismo de aventura.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
-      preguntas: [{"id": 1, "texto": "¿Cuál es el propósito principal del servicio al cliente en turismo de aventura?", "imagen": "@/assets/actividad/imagen1.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Promover únicamente la venta de servicios turísticos.", "esCorrecta": false}, {"id": "b", "texto": "Brindar atención orientada a satisfacer las necesidades de las personas visitantes durante toda la experiencia turística.", "esCorrecta": true}, {"id": "c", "texto": "Organizar exclusivamente las actividades administrativas del operador turístico.", "esCorrecta": false}, {"id": "d", "texto": "Supervisar el mantenimiento de los equipos utilizados en la actividad.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 2, "texto": "¿Qué favorece la aplicación de técnicas como la escucha activa, la empatía y la orientación oportuna?", "imagen": "@/assets/actividad/imagen2.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Una interacción clara, respetuosa y adecuada a las necesidades de las personas visitantes.", "esCorrecta": true}, {"id": "b", "texto": "a elaboración de material promocional del destino.", "esCorrecta": false}, {"id": "c", "texto": "La selección de los medios utilizados para promocionar la oferta.", "esCorrecta": false}, {"id": "d", "texto": "La organización de la información técnica de las actividades.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 3, "texto": "¿Cuál es la función de un protocolo de atención en turismo de aventura?", "imagen": "@/assets/actividad/imagen3.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Definir únicamente los mensajes promocionales utilizados por la organización.", "esCorrecta": false}, {"id": "b", "texto": "Orientar las acciones del personal para brindar una atención organizada, segura y coherente.", "esCorrecta": true}, {"id": "c", "texto": "Determinar los medios digitales utilizados para divulgar la oferta.", "esCorrecta": false}, {"id": "d", "texto": "Establecer los criterios para clasificar los atractivos turísticos.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 4, "texto": "¿Qué acción contribuye al mejoramiento de la calidad del servicio turístico?", "imagen": "@/assets/actividad/imagen4.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Ampliar la cantidad de actividades sin analizar las necesidades de las personas visitantes.", "esCorrecta": false}, {"id": "b", "texto": "Incorporar herramientas digitales sin evaluar su utilidad en la atención.", "esCorrecta": false}, {"id": "c", "texto": "Reducir el tiempo de atención sin considerar las características del servicio.", "esCorrecta": false}, {"id": "d", "texto": "Atender las necesidades de las personas visitantes mediante procesos organizados, seguros y orientados a la mejora continua.", "esCorrecta": true}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 5, "texto": "¿Qué propósito cumple la comunicación turística durante la prestación de un servicio?", "imagen": "@/assets/actividad/imagen5.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Facilitar la orientación, la atención y la divulgación de información relacionada con la oferta turística.", "esCorrecta": true}, {"id": "b", "texto": "Registrar exclusivamente las actividades realizadas por el personal.", "esCorrecta": false}, {"id": "c", "texto": "Determinar la capacidad de carga de los atractivos.", "esCorrecta": false}, {"id": "d", "texto": "Sustituir los protocolos utilizados por la organización.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 6, "texto": "¿Cuál es una característica de la comunicación asertiva en turismo de aventura?", "imagen": "@/assets/actividad/imagen6.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Transmitir información únicamente mediante documentos escritos.", "esCorrecta": false}, {"id": "b", "texto": "Expresar información de manera clara, respetuosa y oportuna para facilitar la comprensión de las personas visitantes.", "esCorrecta": true}, {"id": "c", "texto": "Utilizar exclusivamente términos técnicos durante la atención.", "esCorrecta": false}, {"id": "d", "texto": "Limitar la comunicación a las recomendaciones de seguridad.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 7, "texto": "¿Cuál es el propósito principal de la orientación al visitante?", "imagen": "@/assets/actividad/imagen7.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Proporcionar información que facilite la participación segura y organizada en las actividades turísticas.", "esCorrecta": true}, {"id": "b", "texto": "Incrementar el número de atractivos turísticos del destino.", "esCorrecta": false}, {"id": "c", "texto": "Elaborar estudios de mercado para nuevos productos turísticos.", "esCorrecta": false}, {"id": "d", "texto": "Diseñar campañas publicitarias para operadores turísticos.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 8, "texto": "¿Por qué es importante utilizar lenguaje técnico de manera precisa y consistente en la documentación operativa?", "imagen": "@/assets/actividad/imagen8.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Porque reemplaza la comunicación con las personas visitantes.", "esCorrecta": false}, {"id": "b", "texto": "Porque facilita la interpretación de la información y reduce ambigüedades en los procesos.", "esCorrecta": true}, {"id": "c", "texto": "Porque permite utilizar el mismo mensaje con todos los públicos.", "esCorrecta": false}, {"id": "d", "texto": "Porque convierte cualquier documento en material promocional.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 9, "texto": "¿Qué función cumplen los motores de búsqueda en la gestión de la información turística?", "imagen": "@/assets/actividad/imagen9.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Determinar por sí mismos si toda la información encontrada es confiable.", "esCorrecta": false}, {"id": "b", "texto": "Convertir automáticamente la información encontrada en material promocional.", "esCorrecta": false}, {"id": "c", "texto": "Facilitar el acceso a fuentes digitales de información confiable sobre destinos, servicios y normatividad.", "esCorrecta": true}, {"id": "d", "texto": "Reemplazar las fuentes institucionales utilizadas por las organizaciones.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 10, "texto": "¿Cuál es uno de los principales aportes de la inteligencia artificial en el turismo?", "imagen": "@/assets/actividad/imagen10.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Reemplazar completamente la atención brindada por el personal turístico.", "esCorrecta": false}, {"id": "b", "texto": "Apoyar la gestión de la información, la atención al visitante y la generación de contenidos mediante herramientas tecnológicas.", "esCorrecta": true}, {"id": "c", "texto": "Eliminar la necesidad de aplicar protocolos de atención.", "esCorrecta": false}, {"id": "d", "texto": "Sustituir la normatividad aplicable al turismo de aventura.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 11, "texto": "¿Cuál es una función de las aplicaciones móviles en el turismo de aventura?", "imagen": "@/assets/actividad/imagen1.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Reemplazar los procedimientos operativos definidos por la organización.", "esCorrecta": false}, {"id": "b", "texto": "Facilitar el acceso a información, orientación y servicios durante la planificación y el desarrollo de la experiencia turística.", "esCorrecta": true}, {"id": "c", "texto": "Determinar automáticamente la confiabilidad de todas las fuentes consultadas.", "esCorrecta": false}, {"id": "d", "texto": "Elaborar inventarios de atractivos turísticos.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 12, "texto": "¿Cuál es la finalidad de los portales turísticos oficiales?", "imagen": "@/assets/actividad/imagen2.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Comercializar exclusivamente servicios de alojamiento.", "esCorrecta": false}, {"id": "b", "texto": "Publicar únicamente campañas promocionales.", "esCorrecta": false}, {"id": "c", "texto": "Proporcionar información confiable y actualizada sobre destinos, servicios y actividades turísticas.", "esCorrecta": true}, {"id": "d", "texto": "Administrar las redes sociales de los prestadores de servicios turísticos.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 13, "texto": "¿Qué aporte realizan las redes sociales a la comunicación turística?", "imagen": "@/assets/actividad/imagen3.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Permiten divulgar contenidos e interactuar con diferentes públicos.", "esCorrecta": true}, {"id": "b", "texto": "Sustituyen los demás canales de información de la organización.", "esCorrecta": false}, {"id": "c", "texto": "Garantizan que toda la información publicada sea confiable.", "esCorrecta": false}, {"id": "d", "texto": "Se utilizan exclusivamente para confirmar reservas.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 14, "texto": "¿Cuál es el propósito del material promocional en turismo de aventura?", "imagen": "@/assets/actividad/imagen4.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Incrementar la capacidad de carga de los destinos turísticos.", "esCorrecta": false}, {"id": "b", "texto": "Comunicar de manera clara y atractiva la oferta de productos y servicios turísticos.", "esCorrecta": true}, {"id": "c", "texto": "Sustituir la orientación brindada por el personal operativo.", "esCorrecta": false}, {"id": "d", "texto": "Clasificar los recursos turísticos del territorio.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 15, "texto": "¿Cuál es un criterio importante para elaborar material promocional de calidad?", "imagen": "@/assets/actividad/imagen5.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Utilizar únicamente imágenes llamativas.", "esCorrecta": false}, {"id": "b", "texto": "Publicar la mayor cantidad posible de información.", "esCorrecta": false}, {"id": "c", "texto": "Presentar información veraz, actualizada y coherente con la experiencia ofrecida.", "esCorrecta": true}, {"id": "d", "texto": "Emplear exclusivamente medios impresos para la divulgación.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 16, "texto": "¿Cuál es el propósito de utilizar diferentes medios de promoción en turismo de aventura?", "imagen": "@/assets/actividad/imagen6.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Sustituir los canales de atención al visitante.", "esCorrecta": false}, {"id": "b", "texto": "Incrementar exclusivamente el número de actividades ofertadas.", "esCorrecta": false}, {"id": "c", "texto": "Elaborar inventarios turísticos de manera automática.", "esCorrecta": false}, {"id": "d", "texto": "Divulgar la oferta turística a diferentes públicos mediante canales apropiados.", "esCorrecta": true}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 17, "texto": "¿Cuál es un beneficio de utilizar fuentes oficiales para consultar información turística?", "imagen": "@/assets/actividad/imagen7.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Obtener información confiable, actualizada y verificable para apoyar la gestión turística.", "esCorrecta": true}, {"id": "b", "texto": "Reducir la necesidad de capacitar al personal.", "esCorrecta": false}, {"id": "c", "texto": "Sustituir la comunicación con las personas visitantes.", "esCorrecta": false}, {"id": "d", "texto": "Eliminar el uso de otras herramientas tecnológicas.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 18, "texto": "¿Cuál es una característica de la comunicación multicanal en la promoción turística?", "imagen": "@/assets/actividad/imagen8.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Utilizar un único medio para todos los públicos.", "esCorrecta": false}, {"id": "b", "texto": "Mantener mensajes coherentes en los diferentes canales de comunicación.", "esCorrecta": true}, {"id": "c", "texto": "Sustituir completamente la atención presencial por medios digitales.", "esCorrecta": false}, {"id": "d", "texto": "Publicar información sin considerar las características del público objetivo.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 19, "texto": "¿Cuál es la importancia de evaluar las estrategias de comunicación turística implementadas por una organización?", "imagen": "@/assets/actividad/imagen9.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Facilitar la mejora continua mediante el análisis de los resultados obtenidos.", "esCorrecta": true}, {"id": "b", "texto": "Sustituir los procesos de atención al cliente.", "esCorrecta": false}, {"id": "c", "texto": "Eliminar la necesidad de utilizar medios digitales.", "esCorrecta": false}, {"id": "d", "texto": "Reemplazar la planificación de la oferta turística.", "esCorrecta": false}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}, {"id": 20, "texto": "¿Cuál es el principal aporte de la comunicación de la oferta turística de aventura?", "imagen": "@/assets/actividad/imagen10.png", "barajarRespuestas": true, "opciones": [{"id": "a", "texto": "Incrementar únicamente el número de visitantes del destino.", "esCorrecta": false}, {"id": "b", "texto": "Sustituir los procesos administrativos de la organización.", "esCorrecta": false}, {"id": "c", "texto": "Centralizar la información en un único medio de comunicación.", "esCorrecta": false}, {"id": "d", "texto": "Fortalecer la atención al visitante, la comunicación de la oferta y la promoción de experiencias turísticas seguras y de calidad.", "esCorrecta": true}], "mensaje_correcto": "Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.", "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."}], 
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion: '<b>Objetivo:</b> verificar la apropiación de conceptos relacionados con el servicio al cliente, la comunicación turística, las tecnologías para la información turística y los medios de promoción de la oferta en turismo de aventura.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
+      preguntas: [
         {
           id: 1,
           texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
+            '¿Cuál es el propósito principal del servicio al cliente en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Promover únicamente la venta de servicios turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Brindar atención orientada a satisfacer las necesidades de las personas visitantes durante toda la experiencia turística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Organizar exclusivamente las actividades administrativas del operador turístico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Supervisar el mantenimiento de los equipos utilizados en la actividad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Qué favorece la aplicación de técnicas como la escucha activa, la empatía y la orientación oportuna?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Una interacción clara, respetuosa y adecuada a las necesidades de las personas visitantes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'a elaboración de material promocional del destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La selección de los medios utilizados para promocionar la oferta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La organización de la información técnica de las actividades.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
+            '¿Cuál es la función de un protocolo de atención en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definir únicamente los mensajes promocionales utilizados por la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Orientar las acciones del personal para brindar una atención organizada, segura y coherente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar los medios digitales utilizados para divulgar la oferta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Establecer los criterios para clasificar los atractivos turísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
+            '¿Qué acción contribuye al mejoramiento de la calidad del servicio turístico?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Ampliar la cantidad de actividades sin analizar las necesidades de las personas visitantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Incorporar herramientas digitales sin evaluar su utilidad en la atención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reducir el tiempo de atención sin considerar las características del servicio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Atender las necesidades de las personas visitantes mediante procesos organizados, seguros y orientados a la mejora continua.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
           texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
+            '¿Qué propósito cumple la comunicación turística durante la prestación de un servicio?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Facilitar la orientación, la atención y la divulgación de información relacionada con la oferta turística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Registrar exclusivamente las actividades realizadas por el personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Determinar la capacidad de carga de los atractivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir los protocolos utilizados por la organización.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
+            '¿Cuál es una característica de la comunicación asertiva en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Transmitir información únicamente mediante documentos escritos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Expresar información de manera clara, respetuosa y oportuna para facilitar la comprensión de las personas visitantes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar exclusivamente términos técnicos durante la atención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Limitar la comunicación a las recomendaciones de seguridad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
+            '¿Cuál es el propósito principal de la orientación al visitante?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Proporcionar información que facilite la participación segura y organizada en las actividades turísticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Incrementar el número de atractivos turísticos del destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Elaborar estudios de mercado para nuevos productos turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Diseñar campañas publicitarias para operadores turísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
+            '¿Por qué es importante utilizar lenguaje técnico de manera precisa y consistente en la documentación operativa?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Porque reemplaza la comunicación con las personas visitantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Porque facilita la interpretación de la información y reduce ambigüedades en los procesos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Porque permite utilizar el mismo mensaje con todos los públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Porque convierte cualquier documento en material promocional.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
+            '¿Qué función cumplen los motores de búsqueda en la gestión de la información turística?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Determinar por sí mismos si toda la información encontrada es confiable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Convertir automáticamente la información encontrada en material promocional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Facilitar el acceso a fuentes digitales de información confiable sobre destinos, servicios y normatividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplazar las fuentes institucionales utilizadas por las organizaciones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
           texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
+            '¿Cuál es uno de los principales aportes de la inteligencia artificial en el turismo?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reemplazar completamente la atención brindada por el personal turístico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Apoyar la gestión de la información, la atención al visitante y la generación de contenidos mediante herramientas tecnológicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la necesidad de aplicar protocolos de atención.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir la normatividad aplicable al turismo de aventura.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Cuál es una función de las aplicaciones móviles en el turismo de aventura?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reemplazar los procedimientos operativos definidos por la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Facilitar el acceso a información, orientación y servicios durante la planificación y el desarrollo de la experiencia turística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Determinar automáticamente la confiabilidad de todas las fuentes consultadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Elaborar inventarios de atractivos turísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 12,
+          texto: '¿Cuál es la finalidad de los portales turísticos oficiales?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Comercializar exclusivamente servicios de alojamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Publicar únicamente campañas promocionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Proporcionar información confiable y actualizada sobre destinos, servicios y actividades turísticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Administrar las redes sociales de los prestadores de servicios turísticos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué aporte realizan las redes sociales a la comunicación turística?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Permiten divulgar contenidos e interactuar con diferentes públicos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sustituyen los demás canales de información de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Garantizan que toda la información publicada sea confiable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se utilizan exclusivamente para confirmar reservas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto:
+            '¿Cuál es el propósito del material promocional en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Incrementar la capacidad de carga de los destinos turísticos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Comunicar de manera clara y atractiva la oferta de productos y servicios turísticos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir la orientación brindada por el personal operativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Clasificar los recursos turísticos del territorio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 15,
+          texto:
+            '¿Cuál es un criterio importante para elaborar material promocional de calidad?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Utilizar únicamente imágenes llamativas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Publicar la mayor cantidad posible de información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Presentar información veraz, actualizada y coherente con la experiencia ofrecida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Emplear exclusivamente medios impresos para la divulgación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál es el propósito de utilizar diferentes medios de promoción en turismo de aventura?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sustituir los canales de atención al visitante.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Incrementar exclusivamente el número de actividades ofertadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Elaborar inventarios turísticos de manera automática.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Divulgar la oferta turística a diferentes públicos mediante canales apropiados.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es un beneficio de utilizar fuentes oficiales para consultar información turística?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Obtener información confiable, actualizada y verificable para apoyar la gestión turística.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la necesidad de capacitar al personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir la comunicación con las personas visitantes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el uso de otras herramientas tecnológicas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es una característica de la comunicación multicanal en la promoción turística?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Utilizar un único medio para todos los públicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Mantener mensajes coherentes en los diferentes canales de comunicación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir completamente la atención presencial por medios digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Publicar información sin considerar las características del público objetivo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál es la importancia de evaluar las estrategias de comunicación turística implementadas por una organización?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Facilitar la mejora continua mediante el análisis de los resultados obtenidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir los procesos de atención al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la necesidad de utilizar medios digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplazar la planificación de la oferta turística.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el principal aporte de la comunicación de la oferta turística de aventura?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Incrementar únicamente el número de visitantes del destino.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Sustituir los procesos administrativos de la organización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Centralizar la información en un único medio de comunicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Fortalecer la atención al visitante, la comunicación de la oferta y la promoción de experiencias turísticas seguras y de calidad.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
+      mensaje_final_aprobado:
+        'Ha superado la actividad y evidencia comprensión de los contenidos del componente formativo.',
+      mensaje_final_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
