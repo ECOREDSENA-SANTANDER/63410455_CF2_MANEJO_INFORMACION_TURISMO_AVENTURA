@@ -138,6 +138,10 @@ figcaption
 .acordion__accion__btn--a
     background-color: $color-acento-botones
 
+.acordion__accion__btn--b
+    background-color: $color-acento-botones !important;
+    border: 0
+
 .tabs-a__tab
     background-color: $color-acento-botones
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
@@ -145,6 +149,43 @@ figcaption
 
 .slyder-f__btn i 
     color: $color-acento-botones
+
+
+.tabs-c.color-primario .tabs-c__tab
+    background-color: #E8EDEB
+    border-bottom-color: #E8E8E8
+
+.tabs-c.color-primario .tabs-c__tab--active
+    background-color: #fff
+    border-bottom-color: $color-acento-botones !important
+    color: $color-sistema-texto !important
+
+.tabs-c.color-primario .tabs-c__tab--active:before
+    border-top-color: $color-acento-botones !important
+    
+.tabs-c.color-primario .tabs-c__tab--active span
+    font-weight: bold !important
+
+.cajon.color-primario
+    background-color: #E8EDEB
+
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+      color: $color-sistema-texto !important
+      font-style: normal !important
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+    background-color: #9D2A00
+    border: 0px
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after,
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+    background-color: #9D9D9D
+    border: 0px
+.pasos-b.color-acento-botones .pasos-b__header__item--active .pasos-b__header__item__dot span
+    color: $color-sistema-texto !important
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+    background-color: $color-acento-botones !important
+    border: 0px !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -157,7 +198,7 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/temas/bg/3.png)
 
 .bg
   &-primario
@@ -176,6 +217,10 @@ figcaption
     background-color: #E8EDEB
   &-3
     background-color: #9D2A00
+  &-4
+    background-color: #fff
+  &-5
+    background-color: #F5E9E5
 
 .mcus
   &-1
@@ -192,7 +237,9 @@ figcaption
   &-1
     height: 400px !important
 
-
+.br
+  &-1
+    border-radius: 20px !important
 
 
 /**************************************************************/
