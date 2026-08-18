@@ -306,35 +306,35 @@
 
                     p.mb-0 También deben incluirse horarios, puntos de encuentro, medios de transporte, formas de pago, documentación requerida y canales de contacto. Una comunicación completa disminuye la posibilidad de cancelaciones, retrasos o inconvenientes derivados de información incompleta.
                   .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/t2/30.png', alt='')
+                    img(src='@/assets/curso/temas/t2/30.png')
 
                 .row.justify-content-center.mb-4(titulo="")
                   .col-sm-12.col-lg-6
                     h4 Orientación durante la actividad
                     p.mb-0 El personal responsable suministra información sobre el recorrido, recuerda las medidas de seguridad, explica las características del entorno y responde las inquietudes que puedan surgir. La comunicación debe adaptarse a las condiciones del grupo, las características del terreno y los cambios del entorno natural.
                   .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/t2/31.png', alt='')
+                    img(src='@/assets/curso/temas/t2/31.png')
 
                 .row.justify-content-center.mb-4(titulo="")
                   .col-sm-12.col-lg-6
                     h4 Interpretación durante el recorrido
                     p.mb-0 La identificación de especies, la descripción de ecosistemas, la historia del territorio y la explicación de fenómenos geológicos enriquecen la experiencia y favorecen una mayor valoración del patrimonio natural y cultural.
                   .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/t2/32.png', alt='')
+                    img(src='@/assets/curso/temas/t2/32.png')
 
                 .row.justify-content-center.mb-4(titulo="")
                   .col-sm-12.col-lg-6
                     h4 Orientación posterior a la experiencia
                     p.mb-0 Al finalizar pueden proporcionarse recomendaciones para futuras visitas, información sobre otros productos turísticos, canales para presentar sugerencias y medios para compartir fotografías o material audiovisual del recorrido.
                   .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/t2/33.png', alt='')
+                    img(src='@/assets/curso/temas/t2/33.png')
 
                 .row.justify-content-center.mb-4(titulo="")
                   .col-sm-12.col-lg-6
                     h4 Retroalimentación
                     p.mb-0 Las encuestas de satisfacción, las entrevistas breves y los formularios digitales permiten conocer la percepción de las personas visitantes e identificar oportunidades para actualizar los procesos operativos.
                   .col-sm-12.col-lg-5.d-none.d-lg-block
-                    img(src='@/assets/curso/temas/t2/34.png', alt='')
+                    img(src='@/assets/curso/temas/t2/34.png')
 
         
       .titulo-tercer-nivel-2.mb-5(data-aos='fade-right')
@@ -353,7 +353,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/35.svg', alt='')
+            img(src='@/assets/curso/temas/t2/35.svg')
             .tarjeta.bg-color-5
               .p-4
                 h4.text-center Personas con poca experiencia
@@ -361,7 +361,7 @@
 
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/36.svg', alt='')
+            img(src='@/assets/curso/temas/t2/36.svg')
             .tarjeta.bg-color-5
               .p-4
                 h4.text-center Visitantes internacionales
@@ -369,7 +369,7 @@
 
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/37.svg', alt='')
+            img(src='@/assets/curso/temas/t2/37.svg')
             .tarjeta.bg-color-5
               .p-4
                 h4.text-center Personas mayores
@@ -377,7 +377,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/38.svg', alt='')
+            img(src='@/assets/curso/temas/t2/38.svg')
             .tarjeta.bg-color-5
               .p-4
                 h4.text-center Grupos familiares
@@ -385,7 +385,7 @@
 
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/39.svg', alt='')
+            img(src='@/assets/curso/temas/t2/39.svg')
             .tarjeta.bg-color-5
               .p-4
                 h4.text-center Personas con discapacidad
@@ -651,7 +651,7 @@
       
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-6.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/62.png', alt='')
+          img(src='@/assets/curso/temas/t2/62.png')
         .col-sm-12.col-lg-6
             LineaTiempoD.color-acento-botones
               .row(numero="1" titulo="Utilizar terminología normalizada")

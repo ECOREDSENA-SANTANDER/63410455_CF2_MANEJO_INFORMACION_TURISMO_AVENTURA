@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <g id="Grupo_1187925" data-name="Grupo 1187925" transform="translate(-384.959 -11960.79)">
+    <circle id="Elipse_13614" data-name="Elipse 13614" cx="65" cy="65" r="65" transform="translate(384.959 11960.79)" fill="#fff"/>
+    <g id="Grupo_1187467" data-name="Grupo 1187467" transform="translate(417.705 11991.375)">
+      <path id="Trazado_1024059" data-name="Trazado 1024059" d="M32,64H16A16,16,0,0,1,0,48V16A16,16,0,0,1,16,0H48A16,16,0,0,1,64,16V48A16,16,0,0,1,48,64H42a5,5,0,1,0-10,0Z" fill="#3764b9" fill-rule="evenodd"/>
+      <path id="Trazado_1024060" data-name="Trazado 1024060" d="M30,18H48A9,9,0,0,0,48.92.046C48.614.029,48.311,0,48,0H16A16,16,0,0,0,0,16V48A30,30,0,0,1,30,18" fill="#507dd2" fill-rule="evenodd"/>
+      <path id="Trazado_1024061" data-name="Trazado 1024061" d="M48,32A16,16,0,1,0,64,48V16A16,16,0,0,1,48,32" fill="#1e4ba0" fill-rule="evenodd"/>
+      <path id="Trazado_1024062" data-name="Trazado 1024062" d="M52,18a2,2,0,0,1-2,2H44a2,2,0,0,0-2,2v8h7.56a2,2,0,0,1,1.961,2.392l-1.2,6A2,2,0,0,1,48.36,40H42V64H32V40H26a2,2,0,0,1-2-2V32a2,2,0,0,1,2-2h6V22A12,12,0,0,1,44,10h6a2,2,0,0,1,2,2Z" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

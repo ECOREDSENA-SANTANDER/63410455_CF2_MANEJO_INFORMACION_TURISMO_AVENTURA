@@ -202,8 +202,18 @@ figcaption
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   color: $color-sistema-texto !important
 
+.tarjeta--boton-cus
+  background-color: #74A3DB 
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+.tarjeta--boton-cus.bg-color-8:active, 
+.tarjeta--boton-cus.bg-color-8:focus, 
+.tarjeta--boton-cus.bg-color-8:hover
+  background-color: #E6EAED 
 
-
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: $color-sistema-texto !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -241,11 +251,17 @@ figcaption
     background-color: #fff
   &-5
     background-color: #F5E9E5
+  &-6
+    background-color: #D8A999
+  &-7
+    background-color: #B6C1C9
 
 .mcus
   &-1
     margin-left: 0 !important
     padding-left: 0 !important
+  &-2
+    margin-top: 4.5rem !important
 
 .wcus
   &-1
@@ -257,6 +273,8 @@ figcaption
   &-1
     height: 400px !important
   &-2
+    height: 350px !important
+  &-3
     height: 350px !important
 
 .br
@@ -290,7 +308,12 @@ figcaption
     right: -10% !important;
   .slyder-a__btn--atrs
     left: -10% !important;
-  
+  .mcus
+    &-2
+      margin-top: 1.5rem !important
+  .tarjeta--container > .tarjeta
+    border-radius: 20px !important
+    margin-bottom: 1rem !important
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -315,5 +338,7 @@ figcaption
     right: -9% !important;
   .slyder-a__btn--atrs
     left: -9% !important;
+  
+  
   
  
