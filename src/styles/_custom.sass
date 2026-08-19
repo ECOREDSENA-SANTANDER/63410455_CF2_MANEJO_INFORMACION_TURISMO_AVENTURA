@@ -214,11 +214,24 @@ figcaption
 
 .img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
   color: $color-sistema-texto !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones;
+    border: 0;
+.slyder-a__bullets__item 
+    background-color: #9DB89A
+    border: 0;
+
+.slyder-a__bullets__item--active
+    background-color: $color-acento-botones;
+    border: 0;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
   padding: 3rem 3.5rem!important;
+.p-full-width-2
+  padding: 3rem 3.5rem 0 !important;
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -229,6 +242,8 @@ figcaption
     background-image: url(../assets/curso/temas/bg/3.png)
   &-2
     background-image: url(../assets/curso/temas/t2/44.svg)
+  &-3
+    background-image: url(../assets/curso/temas/bg/4.svg)
 
 .bg
   &-primario
@@ -275,7 +290,7 @@ figcaption
   &-2
     height: 350px !important
   &-3
-    height: 350px !important
+    height: 250px !important
 
 .br
   &-1
@@ -283,6 +298,17 @@ figcaption
   &-2
     border-radius: 40px !important
 
+.pcus
+  &-1
+    padding-bottom: 3rem !important;
+  &-2
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  &-3
+    padding-top: 3rem !important;
+  &-4
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
 
 /**************************************************************/
 /*Media Queries*/  
@@ -305,15 +331,19 @@ figcaption
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
   .slyder-a__btn--sigt
-    right: -10% !important;
+    right: 0% !important;
   .slyder-a__btn--atrs
-    left: -10% !important;
+    left: 0% !important;
   .mcus
     &-2
       margin-top: 1.5rem !important
   .tarjeta--container > .tarjeta
     border-radius: 20px !important
     margin-bottom: 1rem !important
+  .hcard
+    &-3
+      height: 230px !important
+      margin-bottom: 1rem !important
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -335,10 +365,25 @@ figcaption
     width: 30px;
     height: 30px;
   .slyder-a__btn--sigt
-    right: -9% !important;
+    right: -1% !important;
   .slyder-a__btn--atrs
-    left: -9% !important;
+    left: -1% !important;
+  .pcus
+    &-1
+      padding-bottom: 1rem !important;
+    &-2
+      padding-right: 1.3rem !important;
+      padding-left: 1.3rem !important;
+    &-3
+      padding-top: 1rem !important;
+    &-4
+      padding-right: 0.5rem !important;
+      padding-left: 0.5rem !important;
   
+  .hcard
+    &-3
+      height: auto !important
+      margin-bottom: 1rem !important
   
   
  
