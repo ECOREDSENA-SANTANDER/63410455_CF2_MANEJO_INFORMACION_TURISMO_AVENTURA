@@ -190,7 +190,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/FdDqDQ8i2Gk?si=9xaQwZ_HmB3lpOug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/0FhZp0876v8?si=Ejc9mgjAEi6QxGAf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
       p.mb-5(data-aos='fade-right') Las siguientes prácticas permiten fortalecer la comunicación y responder de manera adecuada durante la atención.`
 
@@ -261,7 +261,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones.mb-0.p-4(
-              texto="Pódcast: vender textiles con argumentos: del dato técnico al beneficio del cliente"
+              texto="Pódcast. Comunicación que orienta y genera confianza"
               :audio="require_src('@/assets/curso/temas/t2/podcast.mp3')"
           )
       p.mb-5(data-aos='fade-right') Estas habilidades comunicativas constituyen la base para brindar información pertinente y orientar a las personas visitantes antes, durante y después de la experiencia turística.
@@ -631,7 +631,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/X3Cv9sKaYo0?si=VMJ0oTZfK6z2Z8n7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/eM5jUga9mZ0?si=BLH1ZuFIU5dZrEgv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
   
       .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos='fade-right')
         .bloque-texto-g__img.d-none.d-lg-block(
